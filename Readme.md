@@ -2,6 +2,7 @@
 
 H1 Analyst Agent is a Slack bot that helps analyze HackerOne reports using AI. It can fetch report details, analyze the validity of security reports, and provide insights about hackers based on their profiles.
 
+The following animation shows a demonstration using entirely simulated data:
 ![Demo GIF](./output.gif)
 
 ## Features
