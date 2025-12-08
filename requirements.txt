@@ -1,0 +1,21 @@
+# Core dependencies
+python-dotenv==1.0.0
+requests==2.32.4 # Fixed CVE-2024-47081 and CVE-2024-35195
+slack-bolt==1.18.0
+slack-sdk==3.21.0  # Required by slack-bolt for WebClient
+beautifulsoup4==4.13.4
+
+# Image processing
+pillow==11.1.0 # Updated for CVE-2024-28219, CVE-2023-50447, and DoS vulnerability
+
+# Utilities
+python-dateutil==2.9.0.post0
+
+# Testing dependencies
+pytest==8.3.5
+pytest-mock==3.11.1
+pytest-cov==4.1.0
+responses==0.23.1  # For mocking HTTP requests
+
+# Security dependencies
+python-magic==0.4.27  # For file type validation
