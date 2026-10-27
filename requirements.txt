@@ -6,7 +6,7 @@ slack-sdk==3.21.0  # Required by slack-bolt for WebClient
 beautifulsoup4==4.13.4
 
 # Image processing
-pillow==11.1.0 # Updated for CVE-2024-28219, CVE-2023-50447, and DoS vulnerability
+pillow==13.0.0 # Updated for CVE-2024-28219, CVE-2023-50447, and DoS vulnerability
 
 # Utilities
 python-dateutil==2.9.0.post0
